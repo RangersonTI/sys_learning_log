@@ -6,4 +6,5 @@ urlpatterns = [
     path('', views.index, name="index"),
     path('check_topics/', views.topics, name="check_topics"),
     path('topic/<topic_id>/', views.topic, name='topic'),
+    path('new_topic/',views.new_topic, name='new_topic')
 ]
